@@ -1,0 +1,44 @@
+.left{
+    background-color: dodgerblue
+}
+
+.productImage{
+    width: 150px;
+    display: block;
+    margin: auto;
+    
+    border: 1px solid #ddd;
+    border-color: #fff;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.columnMenu {
+    float: left;
+    width: 15%;
+    padding-left: 2%;
+}
+
+.division{
+    width: 1%;
+    background-color: gray;
+}
+
+.columnBody {
+    float: left;
+    width: 85%;
+}
+
+.columnAdd{
+    padding: 1%;
+    float: left;
+    width: 33%;
+}
+
+/*
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-left: 5%;
+}*/

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/style.css">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <title>DevApps Shop</title>
+    </head>
+    <body style="background-color: gainsboro;">
+     <div class="container">
+    <div class="card shadow p-3 mb-5 rounded left">Jaime Ernesto Rodriguez</div>
+        </div>
+    <form method="post">
+    <div class=" container" >
+        <div class="row">
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img class="productImage" src="images/user.png">
+                    <br>
+
+                    <button class="btn btn-primary" >agregar</button>
+                    <br>
+
+                    <label>Descripción:</label>
+                    <textarea class="form-control" rows="5" id="descripcion"></textarea>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    
+                        <label>Nombre:</label>
+                        <input class="form-control form-control-sm" type="text" name="nombre">
+
+                        <label>Sellecione el tipo de moneda:</label>
+                        <select class="form-control form-control-sm" id="selMoneda">
+                            <option>$</option>
+                            <option>€</option>
+                        </select>
+
+                        <label>Precio:</label>
+                        <input class="form-control form-control-sm" type="text" name="precio">
+
+                        <label>cantidad</label>
+                        <input class="form-control form-control-sm" type="text" name="cantidad">
+
+                        <label>Estado</label>
+                        <select class="form-control form-control-sm" id="selMoneda">
+                            <option>Nuevo</option>
+                            <option>Usado</option>
+                        </select>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <div class="row">
+                        <div class="col">
+                            <label>Descuento</label>
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" class="form-check-intput">
+                        </div>
+                    <br>
+                        </div>
+                    <label>Fecha de inicio</label>
+                    <input type="date" class="form-control">
+                    <label>Fecha de culminacion</label>
+                    <input type="date" class="form-control">
+                    <label>Seleccione el tipo de descuento</label>
+                    <select class="form-control form-control-sm" id="selMoneda">
+                            <option>Monto Fijo</option>
+                            <option>Porcentual</option>
+                        </select>
+                    <br>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row" style="background-color: #fff; position: static">
+                    <input class="btn btn-success" type="button" value="Agregar">
+                    <input class="btn btn-danger" type="button" value="Regresar">
+            </div>
+            </form>
+    </body>
+</html>

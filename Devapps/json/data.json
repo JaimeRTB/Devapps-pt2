@@ -1,0 +1,51 @@
+[{
+	"nombre": "Lapiz",
+	"Descripcion": "Human",
+    "Precio": "0.00",
+    "cantidad": "5",
+    "imagen": "-",
+    "tipo_descuento": "-",
+    "inicio_descuento": "-",
+    "fin_descuento": "-",
+    "vendedor": "Jaime",
+    "tipo_moneda": "$",
+    "empresa": "my bussines"
+},{
+	"nombre": "Lapiz",
+	"Descripcion": "Human",
+    "Precio": "0.00",
+    "cantidad": "5",
+    "imagen": "-",
+    "tipo_descuento": "-",
+    "inicio_descuento": "-",
+    "fin_descuento": "-",
+    "vendedor": "Jaime",
+    "tipo_moneda": "$",
+    "empresa": "my bussines"
+},
+{
+	"nombre": "Lapiz",
+	"Descripcion": "Human",
+    "Precio": "0.00",
+    "cantidad": "5",
+    "imagen": "-",
+    "tipo_descuento": "-",
+    "inicio_descuento": "-",
+    "fin_descuento": "-",
+    "vendedor": "Jaime",
+    "tipo_moneda": "$",
+    "empresa": "my bussines"
+},
+{
+	"nombre": "Lapiz",
+	"Descripcion": "Human",
+    "Precio": "0.00",
+    "cantidad": "5",
+    "imagen": "-",
+    "tipo_descuento": "-",
+    "inicio_descuento": "-",
+    "fin_descuento": "-",
+    "vendedor": "Jaime",
+    "tipo_moneda": "$",
+    "empresa": "my bussines"
+}]
